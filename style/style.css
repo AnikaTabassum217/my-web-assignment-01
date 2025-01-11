@@ -181,5 +181,62 @@ margin: 31px 160px;
     color: #FFFFFF;
     cursor: pointer;
 }
-
+.donate-container{
+    margin-top: 80px;
+}
+.donate-title{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.donate-subtitle{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0E;
+    opacity: 70%;
+    margin-top: 24px;
+    text-align: center;
+}
+.donate-card{
+    margin-top: 32px;
+    display: flex;
+    gap: 24px;
+}
+.donate-card-price{
+    padding: 40px;
+    background-color: #dfdbdb;
+    border-radius: 16px;
+    font-size: 40px;
+    font-weight: bold;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.donate-input{
+   margin-top: 32px;
+   width: 100%;
+   border: none;
+   background-color: #f6f6f6;
+   padding: 20px ;
+   
+}
+.donate-input::placeholder {
+    opacity: 30%;
+    text-align: center;
+  }
+  .donate-btn-design{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.donate-btn{
+    margin-top: 32px;
+    font-size: 18px;
+    font-weight: 600;
+   padding: 17px 34px;
+   border-radius: 8px;
+   border: none;
+   background-color: #006A50;
+   color: #FFFFFF;
+   cursor: pointer;
+}
 
