@@ -456,7 +456,7 @@ td{
 .subscribe-form-input::placeholder {
     color: #0E0E0E;
     opacity: 30%;
-    padding: 18px;
+    padding: 40px;
 }
 .subscribe-form-submit {
     width: 150px;
