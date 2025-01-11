@@ -1,23 +1,20 @@
 *{
     margin: 0;
+    font-family: "Fira Sans", serif;
 }
-
 header,main{
 margin: 31px 160px;
 
 }
-
-/* SHARED BUTTON */
-
-/* .common-btn{
- border-radius: 8px;
-} */
 .banner-container{
     display: flex;
     gap: 64px;
     justify-content: space-around;
     align-items: center;
     background-color: #C6E4D6;
+    /* padding: 80px 60px; */
+    padding: 117px 60px;
+    border-radius: 24px;
 }
 .banner-left{
     display: flex;
@@ -29,12 +26,11 @@ margin: 31px 160px;
     opacity: 50%;
     font-size: 24px;
     font-weight: 400;
-   
 }
 .banner-description{
+    font-weight: bold;
     font-size: 56px;
     color: #0E0E0E;
-  
 }
 .banner-btn{
     border-radius: 8px;
@@ -51,10 +47,7 @@ margin: 31px 160px;
 .banner-btn:hover{
     transform: scale(0.9);
 }
-.banner-container{
-    padding: 80px 60px;
-    border-radius: 24px;
-}
+
 .vision-container{
     display: flex;
     flex-direction: column;
@@ -67,8 +60,10 @@ margin: 31px 160px;
     font-weight: bold;
 }
 .vision-description{
-    opacity: 70%;
+    font-size: 16px;
+    font-weight: 400;
     color: #0E0E0E;
+    opacity: 70%;
 }
 .vision-box{
     margin-top: 8px;
@@ -78,17 +73,17 @@ margin: 31px 160px;
     gap: 24px;
 }
 .box1{
-    padding: 30px;
+    padding: 32px;
     background-color: #e8f0ff;
     border-radius: 16px;
 }
 .box2{
-    padding: 30px;
+    padding: 32px;
     background-color: #C6E4D6;
     border-radius: 16px;
 }
 .box3{
-    padding: 30px;
+    padding: 32px;
     background-color: #F7EBCF;
     border-radius: 16px;
 }
@@ -96,6 +91,8 @@ margin: 31px 160px;
     font-size: 40px;
     font-weight: bold;
     margin-top: 24px;
+    color: #0E0E0E;
+    opacity: 80%;
 }
 .vision-box-description{
     font-size: 16px;
@@ -106,7 +103,7 @@ margin: 31px 160px;
 }
 .vision-common-box-btn{
     padding: 11px 20px;
-    margin-top: 35px;
+    margin-top: 24px;
     border: none;
     border-radius: 8px;
     color: #FFFFFF;
@@ -132,7 +129,7 @@ margin: 31px 160px;
 .quote-section-container{
     margin-top: 32px;
     padding: 48px 24px;
-    border: 1px solid rgb(236, 236, 236);
+    border: 1px solid rgb(14, 14, 14,.15);
     border-radius: 16px;
 }
 .quote-section-bg-img{
@@ -163,24 +160,24 @@ margin: 31px 160px;
 .recent-news-container{
     margin-top: 80px;
 }
-
 .recent-news-card-img{
     border-radius: 24px;
- 
+}
+.recent-news-cards-container{
+    margin-top: 32px;
 }
 .recent-news-card{
-   
     border-radius: 24px;
-    border: 1px solid rgb(236, 236, 236);
-    /* box-shadow: 3px 3px 3px 3px rgb(249, 249, 249); */
+    border: 1px solid rgb(14, 14, 14,.15);
     padding: 48px;
-    margin-top: 32px;
+    margin-top: 24px;
     display: flex;
     gap: 32px;
 }
 .recent-news-title{
     font-size: 40px;
     font-weight: bold;
+    color: #0E0E0E;
 }
 .recent-news-description{
     font-size: 16px;
@@ -192,12 +189,15 @@ margin: 31px 160px;
 .recent-news-card-title{
     font-size: 32px;
     font-weight: bold;
+    color: #0E0E0E;
+    opacity: 80%;
 }
 .recent-news-card-al-jazeera-img{
     margin-top: 12px;
 }
 .recent-news-card-date-time{
     margin-top: 12px;
+    color: #0E0E0E;
     opacity: 70%;
     font-weight: 400;
     font-size: 16px;
@@ -208,10 +208,13 @@ margin: 31px 160px;
     margin-top: 12px;
     opacity: 70%;
     font-weight: 400;
+    color: #0E0E0E;
     font-size: 16px;
 }
 .recent-news-card-btn{
     margin-top: 32px;
+    font-size: 18px;
+    font-weight: 600;
     padding: 13px 26px ;
     border-radius: 8px;
     border: none;
@@ -230,6 +233,7 @@ margin: 31px 160px;
 .donate-title{
     font-size: 40px;
     font-weight: bold;
+    color: #0E0E0E;
     text-align: center;
 }
 .donate-subtitle{
@@ -251,6 +255,8 @@ margin: 31px 160px;
     border-radius: 16px;
     font-size: 40px;
     font-weight: bold;
+    color: #0E0E0E;
+    opacity: 80%;
     white-space: nowrap;
     cursor: pointer;
 }
@@ -260,21 +266,15 @@ margin: 31px 160px;
   .donate-card-price-2{
     background-color: #C6E4D6;
   }
-/* .donate-card-price-1::hover{
-    background-color: #d79595;
-}
-.donate-card-price-2{
-    background-color: #d7d4d4;
-} */
 .donate-input{
    margin-top: 32px;
    width: 100%;
    border: none;
    background-color: #f6f6f6;
    padding: 20px ;
-   
 }
 .donate-input::placeholder {
+    color: #0E0E0E;
     opacity: 30%;
     text-align: center;
   }
@@ -284,9 +284,9 @@ margin: 31px 160px;
     align-items: center;
   }
 .donate-btn{
-    margin-top: 32px;
-    font-size: 18px;
-    font-weight: 600;
+   margin-top: 32px;
+   font-size: 18px;
+   font-weight: 600;
    padding: 17px 34px;
    border-radius: 8px;
    border: none;
@@ -315,6 +315,8 @@ margin: 31px 160px;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
+    color: #0E0E0E;
+    opacity: 0.7;
 }
 .subscribe-form{
     margin-top: 24px;
@@ -322,12 +324,13 @@ margin: 31px 160px;
     display: flex;
 }
 .subscribe-form-input{
- width: 600px;
- height: 55px;   
- border: none;
- border-radius: 8px 0px 0px 8px;
-}
+    width: 600px;
+    height: 55px;   
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+    }
 .subscribe-form-input::placeholder {
+    color: #0E0E0E;
     opacity: 30%;
     padding: 18px ;
   }
@@ -351,4 +354,6 @@ margin: 31px 160px;
     text-align: center;
     font-size: 16px;
     font-weight: 400px;
+    color: #0E0E0E;
+    opacity: 70%;
   }
