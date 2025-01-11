@@ -10,12 +10,15 @@
         href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./style/style.css">
-    <title>My website</title>
+    <title>My website assignment</title>
 </head>
 
 <body>
     <header>
-        <nav></nav>
+        <nav class="navbar">
+            <h2 class="navbar-title">Bangladesh 2.0</h2>
+            <button class="navbar-btn">Sign In</button>
+        </nav>
         <div class="banner-container">
             <div class="banner-left">
                 <h6 class="banner-title">Bangladesh 2.0</h6>
@@ -24,12 +27,45 @@
                 <button class="banner-btn">Explore New Bangladesh</button>
             </div>
             <div>
-                <img src="./assets/hero.png" alt="">
+                <img src="./assets/hero.png" alt="Image of hero banner">
             </div>
         </div>
     </header>
 
     <main>
+        <div class="pillars-container">
+            <h2 class="pillars-title">Pillars of "Bangladesh 2.0"</h2>
+            <div class="pillar-box">
+                <div class="pillar-box-design">
+                    <img class="pillar-box-design-img" width="62" height="62" src="./assets/card-icon.png"
+                        alt="Card of innovation">
+                    <h3 class="pillar-box-title">Innovation</h3>
+                    <p class="pillar-box-description">Organizations envision scenarios to support the search for new
+                        meaning.</p>
+                </div>
+                <div class="pillar-box-design">
+                    <img class="pillar-box-design-img" width="62" height="62" src="./assets/card-icon.png"
+                        alt="Card of Sustainability">
+                    <h3 class="pillar-box-title">Sustainability</h3>
+                    <p class="pillar-box-description">The ability to maintain or support a process continuously over
+                        time. </p>
+                </div>
+                <div class="pillar-box-design">
+                    <img class="pillar-box-design-img" width="62" height="62" src="./assets/card-icon.png"
+                        alt="Card of Infrastructure">
+                    <h3 class="pillar-box-title">Infrastructure</h3>
+                    <p class="pillar-box-description">Infrastructure is the basic facilities for serving a community.
+                    </p>
+                </div>
+                <div class="pillar-box-design">
+                    <img class="pillar-box-design-img" width="62" height="62" src="./assets/card-icon.png"
+                        alt="Card of Empowerment">
+                    <h3 class="pillar-box-title">Empowerment</h3>
+                    <p class="pillar-box-description">Empowerment is the process of giving a group the power to make
+                        decisions.</p>
+                </div>
+            </div>
+        </div>
         <div class="vision-container">
             <h2 class="vision-title">The Vision of Future</h2>
             <p class="vision-description">Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing
@@ -72,6 +108,49 @@
             </div>
             <h3 class="quote-section-title">Dr. Muhammad Yunus</h3>
             <p class="quote-section-subtitle">Chief Adviser of the People's Republic of Bangladesh</p>
+        </div>
+
+        <div class="opinion-container">
+            <h1 class="opinion-title">Your Opinion Matters</h1>
+            <div class="opinion-content">
+                <table class="opinion-table">
+                    <tr>
+                        <th>Questions</th>
+                        <th>Select Your Opinion</th>
+                    </tr>
+                    <tr>
+                        <td class="table-data">Do you believe Bangladesh is on the right path toward becoming a
+                            developed nation?</td>
+                        <td class="select-btn-design">
+                            <select name="type" id="type" class="select-btn">
+                                <option value="yes" class="select-btn">Yes, I Agree</option>
+                                <option value="no">No, I Do Not Agree</option>
+
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-data">Do you believe Bangladesh is on the right path toward becoming a
+                            developed nation?</td>
+                        <td class="select-btn-design">
+                            <select name="type" id="type" class="select-btn">
+                                <option value="yes" class="select-btn">Yes, I Agree</option>
+                                <option value="no">No, I Do Not Agree</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-data">Do you believe Bangladesh is on the right path toward becoming a
+                            developed nation?</td>
+                        <td class="select-btn-design">
+                            <select name="type" id="type" class="select-btn">
+                                <option value="yes" class="select-btn">Yes, I Agree</option>
+                                <option value="no">No, I Do Not Agree</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </div>
         </div>
 
         <div class="recent-news-container">
@@ -166,7 +245,6 @@
                 <div class="common-donate-card-price donate-card-price-2">200 Taka</div>
                 <div class="common-donate-card-price">500 Taka</div>
                 <div class="common-donate-card-price">1000 Taka</div>
-
             </div>
             <div>
                 <input class="donate-input" type="text" placeholder="Other Amount (Taka)">
@@ -181,17 +259,29 @@
                 <h2 class="subscribe-title">Subscribe Newsletter</h2>
                 <p class="subscribe-subtitle">Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing
                     cutting-edge technology, promoting inclusive growth.</p>
-
                 <form class="subscribe-form">
                     <input class="subscribe-form-input" type="text" name="" id="" placeholder="Enter your email here">
                     <button class="subscribe-form-submit" type="submit">Subscribe</button>
                 </form>
                 <p class="subscribe-footer">We promise not to spam you!</p>
-
             </div>
         </div>
     </main>
 
+    <footer>
+        <h2 class="footer-title">Bangladesh 2.0</h2>
+        <div>
+            <hr class="footer-horizontal">
+        </div>
+        <div class="footer-img">
+            <a href="https://www.facebook.com/" target="_blank"><img src="./assets/facebook.png" width="24" height="24"
+                    alt="Icon of facebook"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="./assets/instagram.png" width="24"
+                    height="24" alt="Icon of instagram"></a>
+            <a href="https://x.com/" target="_blank"><img src="./assets/x.png" width="24" height="24"
+                    alt="Icon of twitter"></a>
+        </div>
+    </footer>
 </body>
 
 </html>
