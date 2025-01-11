@@ -47,6 +47,11 @@ margin: 31px 160px;
     font-size: 18px;
     font-weight: 600;
     margin-top: 8px;
+    transition-duration: 400ms;
+    cursor: pointer;
+}
+.banner-btn:hover{
+    transform: scale(0.9);
 }
 .banner-container{
     padding: 80px 60px;
@@ -104,13 +109,18 @@ margin: 31px 160px;
 .vision-common-box-btn{
     padding: 11px 20px;
     margin-top: 35px;
-    
     border: none;
     border-radius: 8px;
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
+    transition-duration: 400ms;
+    
+}
+.vision-common-box-btn:hover{
+    transform: scale(0.9);
+    color: black;
 }
 .vision-box1-btn{
     background-color: #5490F5;
@@ -133,8 +143,8 @@ margin: 31px 160px;
 .recent-news-card{
    
     border-radius: 24px;
-    
-    box-shadow: 3px 3px 3px 3px rgb(249, 249, 249);
+    border: 1px solid rgb(236, 236, 236);
+    /* box-shadow: 3px 3px 3px 3px rgb(249, 249, 249); */
     padding: 48px;
     margin-top: 32px;
     display: flex;
@@ -180,6 +190,11 @@ margin: 31px 160px;
     background-color: #006A50;
     color: #FFFFFF;
     cursor: pointer;
+    transition-duration: 400ms;
+}
+.recent-news-card-btn:hover{
+    transform: scale(0.9);
+    background-color: #043528;
 }
 .donate-container{
     margin-top: 80px;
@@ -202,15 +217,27 @@ margin: 31px 160px;
     display: flex;
     gap: 24px;
 }
-.donate-card-price{
+.common-donate-card-price{
     padding: 40px;
-    background-color: #dfdbdb;
+    background-color: #ededed;
     border-radius: 16px;
     font-size: 40px;
     font-weight: bold;
     white-space: nowrap;
     cursor: pointer;
 }
+.common-donate-card-price:hover {
+    background-color: #d0e1e1;
+  }
+  .donate-card-price-2{
+    background-color: #C6E4D6;
+  }
+/* .donate-card-price-1::hover{
+    background-color: #d79595;
+}
+.donate-card-price-2{
+    background-color: #d7d4d4;
+} */
 .donate-input{
    margin-top: 32px;
    width: 100%;
@@ -238,5 +265,10 @@ margin: 31px 160px;
    background-color: #006A50;
    color: #FFFFFF;
    cursor: pointer;
+   transition-duration: 400ms;
+}
+.donate-btn:hover{
+    transform: scale(0.9);
+    background-color: #043528;
 }
 
