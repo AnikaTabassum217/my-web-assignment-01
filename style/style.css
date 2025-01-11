@@ -129,9 +129,39 @@ margin: 31px 160px;
 .vision-box3-btn{
     background-color: #FFC239;
 }
+.quote-section-container{
+    margin-top: 32px;
+    padding: 48px 24px;
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 16px;
+}
+.quote-section-bg-img{
+    background-image: url('../assets/quote-bg.png');
+    background-size: 34px 34px;
+    background-repeat: no-repeat;
+}
+.quote-section{
+    font-weight: 400;
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 80%;
+}
+.quote-section-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 12px;
+    color: #0E0E0E;
+    opacity: 80%;
+}
+.quote-section-subtitle{
+    margin-top: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0E;
+    opacity: 60%;
+}
 .recent-news-container{
     margin-top: 80px;
-    
 }
 
 .recent-news-card-img{
